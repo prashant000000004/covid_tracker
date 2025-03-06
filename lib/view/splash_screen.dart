@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen>
         children: [
           AnimatedBuilder(
               animation: _controller,
-              child: Container(
+              child: SizedBox(
                 height: 200,
                 width: 200,
                 child: const Center(

@@ -12,7 +12,8 @@ class DetailsScreen extends StatefulWidget {
       todayRecoverd,
       test;
   DetailsScreen(
-      {required this.name,
+      {super.key,
+      required this.name,
       required this.image,
       required this.totalCases,
       required this.totalDeaths,
